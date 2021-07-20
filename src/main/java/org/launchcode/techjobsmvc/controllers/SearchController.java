@@ -41,7 +41,7 @@ public class SearchController {
             }
             model.addAttribute("jobs", jobs);
 
-            return "list-jobs";
+            return "search";
         }
     }
 
